@@ -1,0 +1,218 @@
+{
+	"pages": [
+
+		{
+			"path": "pages/tabbars/workbench/index",
+			"style": {
+				"navigationBarTitleText": "工作台",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tabbars/order/index",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tabbars/income/index",
+			"style": {
+				"navigationBarTitleText": "收入",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tabbars/profile/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbars/workbench/orderSetting",
+			"style": {
+				"navigationBarTitleText": "接单设置",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tabbars/order/guide",
+			"style": {
+				"navigationBarTitleText": "导航",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbars/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbars/profile/userDetail",
+			"style": {
+				"navigationBarTitleText": "用户详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbars/profile/account",
+			"style": {
+				"navigationBarTitleText": "账户安全",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tabbars/workbench/incomeDetail",
+			"style": {
+				"navigationBarTitleText": "收入明细",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbars/profile/changePhone",
+			"style": {
+				"navigationBarTitleText": "修改手机号",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbars/profile/changePassword",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/join/tech",
+			"style": {
+				"navigationBarTitleText": "技师加盟",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/join/franchisees",
+			"style": {
+				"navigationBarTitleText": "加盟商",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbars/profile/withdrawal",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbars/profile/withdrawal-record",
+			"style": {
+				"navigationBarTitleText": "提现记录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbars/profile/bankCardList",
+			"style": {
+				"navigationBarTitleText": "银行卡",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbars/workbench/more-appointments",
+			"style": {
+				"navigationBarTitleText": "更多预约",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbars/profile/userInfo",
+			"style": {
+				"navigationBarTitleText": "用户信息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbars/profile/addBankCard",
+			"style": {
+				"navigationBarTitleText": "添加银行卡",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbars/profile/account-security",
+			"style": {
+				"navigationBarTitleText": "账号安全",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbars/profile/rule",
+			"style": {
+				"navigationBarTitleText": "用户服务协议",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabbars/workbench/chooseLocation",
+			"style": {
+				"navigationBarTitleText": "地图",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "var(--theme-color)",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/tabbars/workbench/index",
+				"text": "工作台",
+				"iconPath": "static/tabbar/homepage.png",
+				"selectedIconPath": "static/tabbar/homepage_fill.png"
+			},
+			{
+				"pagePath": "pages/tabbars/order/index",
+				"text": "订单",
+				"iconPath": "static/tabbar/document.png",
+				"selectedIconPath": "static/tabbar/document_fill.png"
+			},
+			{
+				"pagePath": "pages/tabbars/income/index",
+				"text": "收入",
+				"iconPath": "static/tabbar/redpacket.png",
+				"selectedIconPath": "static/tabbar/redpacket_fill.png"
+			},
+			{
+				"pagePath": "pages/tabbars/profile/index",
+				"text": "我的",
+				"iconPath": "static/tabbar/people.png",
+				"selectedIconPath": "static/tabbar/people_fill.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

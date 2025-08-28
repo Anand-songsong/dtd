@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "vconsole": "^3.15.1"
+  }
+}

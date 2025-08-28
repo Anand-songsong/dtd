@@ -1,0 +1,46 @@
+@import '/static/iconfont/iconfont.css';
+@font-face {
+    font-family: 'AlibabaPuHuiTi';
+    src: url('https://mu-dtd.oss-cn-hangzhou.aliyuncs.com/static/AlibabaPuHuiTi.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+:root {
+    --tabbar-height: 180rpx;
+	--bottom-tabbar-height: 6vh;
+	--background-color: #f9fafb;
+	--theme-color: #FF6B35;
+	--theme-color-light: #FFF0E8;
+	--theme-color-linear:#FF8F35;
+	--theme-color-linear-gradient: linear-gradient(90deg, var(--theme-color) 0%, var(--theme-color-linear) 100%);
+}
+html, body, #app {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body, view, text, input, button {
+    font-family: 'AlibabaPuHuiTi' !important;
+  }
+.uni-tabbar-bottom {
+    height: var(--tabbar-height);
+}
+button::after{
+	border: none !important;
+}
+.uni-progress-inner-bar{
+	border-radius: 30rpx;
+}
+.uni-progress-bar{
+	border-radius: 30rpx;
+}
+.text-doing{
+	color: #3B82F6;
+}
+.text-toBeDo{
+	color: #FF6B35;
+}
+.text-done{
+	color: #10B981;
+}
